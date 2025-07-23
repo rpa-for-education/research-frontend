@@ -28,9 +28,9 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Hỏi đáp bài viết với Gemini API</h1>
+      <h1>Hỏi đáp sự kiện khoa học với Gemini API</h1>
       <textarea
-        placeholder="Nhập câu hỏi liên quan đến bài viết..."
+        placeholder="Nhập câu hỏi liên quan đến sự kiện khoa học..."
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
       />
